@@ -29,3 +29,6 @@ The columns were implemented with the Boostrap library. I tried using grid frame
 - [ ] Height of event is changed based on duration
 - [ ] Allow users to schedule other periods (6, 12, or 18 hours)
 - [ ] Have "popular" choices of events organized by type (ex. Eating category would have *Breakfast*, *Lunch*, and *Dinner*
+- [ ] Set up user accounts so that they can save their lists or share their lists to collaborate with friends
+- [ ] Design landing page
+- [ ] Allow cookies to save info from last time visiting the site
