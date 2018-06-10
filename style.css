@@ -1,26 +1,44 @@
 body {
-  font-family: 'Raleway', sans-serif;
-  background-color: #a6c3cf;
+  font-family: 'Nunito', sans-serif;
 }
 
 ul {
   list-style-type: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d3849d;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 li {
-  padding: 5px;
+  width: 25%;
   margin: 5px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #a6c3cf;
-  color: #801129;
-  color: white;
+  border-color: #d3849d;
   text-align: center;
-  background-color: #801160;
+  background-color: #d3849d;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input {
+  color: #d3849d;
+}
+
+label {
+  color: #9284d3;
+  font-size: 24px;
 }
 
 #title {
-  color: #801160;
+  color: #d3849d;
   text-align: center;
   font-size: 36px;
+}
+
+.stacks {
+  font-size: 30px;
+  text-align: center;
+  color: #9284d3;
 }

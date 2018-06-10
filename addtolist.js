@@ -2,10 +2,9 @@ $(document).ready(function() {
   $("#add").click(function() {
     var newListItem = $("#addtolist").val();
     var quantityNum = $("#quantity").val();
-    console.log(newListItem);
-    if ((newListItem.length > 0) && (quantityNum > 0)) {
+    if ((newListItem.length > 0) && (quantityNum > 0) && (quantityNum < 60)) {
       for (var i = 0; i < quantityNum; i++) {
-        $("#timeStack").append("<li>" + newListItem + "</li>");
+        $("#timestack2").append("<li>" + newListItem + "</li>");
         $("#addtolist").val('');
       }}
   });

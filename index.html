@@ -4,29 +4,42 @@
   <meta charset="utf-8" />
   <!-- Getting Jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- Linking the external JS File -->
-  <script type="text/javascript" src="toDoList.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <!-- Linking the external CSS stylesheet -->
   <link rel="stylesheet" type="text/css" href="style.css">
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
 </head>
 
 <body>
-  <h1 id="title">Time Stack™</h1>
+  <h1 id="title">fluidstack</h1>
 
 
   <label for="addtolist">Enter Element: </label>
   <input id="addtolist" type="text" placeholder="Element" />
-  <!-- <input id="addtolist" type="Number" placeholder="Enter Duration (minutes)"/> -->
+
+  <label for="duration">Enter Duration: </label>
+  <input id="duration" type="Number" placeholder="Enter Duration (minutes)" />
+
   <label for="quantity">Enter Quantity: </label>
   <input id="quantity" type="number" placeholder="Number of Elements" />
   <button id="add">Add to Stack</button>
 
-  <ul id="timeStack">
+  <h3 class="stacks">Your Ordered List</h3>
+  <ul id="timestack1" class="connectedSortable">
   </ul>
 
+  <h3 class="stacks">Your Unordered List</h3>
+  <ul id="timestack2" class="connectedSortable">
+  </ul>
+
+
+
+  <!-- Linking the external JS File -->
+  <script type="text/javascript" src="addtolist.js"></script>
+  <script type="text/javascript" src="sorting.js"></script>
 </body>
 
 </html>
