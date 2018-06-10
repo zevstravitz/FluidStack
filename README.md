@@ -18,9 +18,9 @@ To make the design as simple as possible, I found that every time a user created
 2. **The Duration:** this is the timespan of the event (ex. 15 min)
 3. **The Quantity:** this is the amount of times this event will be done throughout the day (ex. 4 times)
 
-The drag and drop and sorting features were easily implemented using JQuery. I created one column for ordered events and one for unordered events. The unordered list would serve as a side area for events if users are unsure whether that event will fit into the schedule.
+The *drag and drop* and *sorting* features were easily implemented using JQuery. I created one column for ordered events and one for unordered events. The unordered list would serve as a side area for events if users are unsure whether that event will fit into the schedule.
 
-The columns were implemented with the Boostrap library. I tried using grid frameworks like css grid, pure flexbox, and Bulma (flexbox based), but none seemed to work well with my the margins and padding I wanted, so I went back to my comfort zone and chose Boostrap. Bootstrap is a relatively heavy library, so if in the future I figure out how to avoid using it, I will.
+The columns were implemented with the Boostrap library. I tried using grid frameworks like css grid, pure flexbox, and Bulma (flexbox based), but none seemed to work well with the margins and padding I wanted, so I went back to my comfort zone and chose Boostrap. Bootstrap is a relatively heavy library, so if in the future I figure out how to avoid using it, I will.
 
 ## Summary and Future Development
 - [x] Creation of event with proper label
