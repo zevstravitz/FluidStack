@@ -5,70 +5,72 @@ body {
 ul {
   list-style-type: none;
   border-style: solid;
-  border-width: 2px;
-  border-color: #d3849d;
+  border-width: 1px;
+  border-color: #424a78;
   padding: 10px;
   border-radius: 10px;
   margin: 10px;
-  width: 25%;
-  height: 500px;
+  height: 600px;
   overflow-y: scroll;
 }
 
 li {
   margin: 5px;
-  border-color: #d3849d;
   text-align: center;
-  background-color: #d3849d;
+  background-color: #898eab;
   border-radius: 10px;
   padding: 10px;
 }
 
 input[type=text], select {
-  color: #d3849d;
+  color: #424a78;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   border: 10px;
   margin: 10px;
 }
 
 input[type=number] {
-  color: #d3849d;
+  color: #424a78;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   border: 10px;
   margin: 10px;
 }
 
 button {
-  width: 25%;
-  padding: 14px 20px;
-  margin: 10px;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
+  background-color: #5a8569;
+  color: white;
+
 }
 
 button:hover {
-  width: 25%;
-  padding: 14px 20px;
-  margin: 10px;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
+  background-color: #98b3a1;
+  color: white;
 }
 
 label {
-  color: #9284d3;
-  font-size: 24px;
+  color: #5a8569;
+  font-size: 18px;
 }
 
 #title {
-  color: #d3849d;
+  color: #424a78;
   text-align: center;
   font-size: 36px;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #424a78;
+  margin-bottom: 10px;
 }
 
 .stacks {
   font-size: 30px;
   text-align: center;
-  color: #9284d3;
+  color: #5a8569;
 }
