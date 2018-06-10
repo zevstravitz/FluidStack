@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls|Gaegu');
+
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Gaegu', cursive !important;
 }
 
 ul {

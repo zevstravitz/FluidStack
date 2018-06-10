@@ -5,7 +5,10 @@ $(document).ready(function() {
     if ((newListItem.length > 0) && (quantityNum > 0) && (quantityNum <= 12)) {
       for (var i = 0; i < quantityNum; i++) {
         $("#timestack1").append("<li>" + newListItem + "</li>");
+        var duration = $("#duration").val();
+        console.log(duration);
         $("#addtolist").val('');
-      }}
+      }
+    }
   });
 });
