@@ -5,10 +5,9 @@ body {
 ul {
   list-style-type: none;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px 1px 0px 1px;
   border-color: #424a78;
   padding: 10px;
-  border-radius: 10px;
   margin: 10px;
   height: 600px;
   overflow-y: scroll;
@@ -17,7 +16,7 @@ ul {
 li {
   margin: 5px;
   text-align: center;
-  background-color: #898eab;
+  background-color: #a1a5bb;
   border-radius: 10px;
   padding: 10px;
 }
